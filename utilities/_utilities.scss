@@ -1,0 +1,55 @@
+.main{
+    color: #ffffff;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid rgb(0, 0, 0);
+    float: left;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+.complace{
+    color: black;
+    background-color: #017e73;
+    border: 5px solid black;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nos{
+    background-color: #555;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.productos{
+    size-adjust: auto;
+    width: 350px;
+}
+.btn-group{
+    display:inline-flex;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    min-width: none;
+
+}
+.lista{
+    display: inline-flex;
+    flex-wrap: wrap;
+   
+}
+.boton{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Skateshop{
+    color: #00c2a8;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto{
+    font-size: 11px;
+}

@@ -1,0 +1,37 @@
+@import '../reset/reset';
+
+@import '../header/header';
+
+@import '../main/main';
+
+@import '../footer/footer';
+
+@import '../upper/upper';
+
+@import '../utilities/utilities';
+
+@keyframes mi_animacion{
+    0%{
+        width: 60%
+    }
+    25%{
+        width: 59%
+    
+    }
+    50%{
+        width: 60%
+    }
+    75%{
+        width: 59%
+    }
+    100%{
+        width: 60%
+    }
+}
+.call{
+    animation-name:mi_animacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+    

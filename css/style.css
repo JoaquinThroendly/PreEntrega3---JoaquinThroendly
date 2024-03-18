@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: rgb(0, 6, 10);
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  font-size: 22px;
+  color: #08c4b4;
+}
+
+.logo {
+  float: left;
+  min-width: 250px;
+  max-width: 600px;
+}
+
+.logo span {
+  color: #ffffff;
+  max-width: 600px;
+  min-width: 250px;
+}
+
+.barra {
+  float: right;
+  min-width: 100px;
+  max-width: 600px;
+}
+
+.barra ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.barra a {
+  color: #00c2a8;
+  text-decoration: none;
+}
+
+.barra a:hover {
+  color: #333;
+}
+
+main {
+  height: calc(100vh - 80px);
+  width: 100%;
+  background-color: #333;
+  background-image: url("../fondo/sport-1284275_1280.webp");
+  background-size: cover;
+  background-position: left;
+}
+
+.call {
+  color: #fff;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 5px solid rgb(0, 0, 0);
+  float: left;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+h1 {
+  color: rgb(1, 180, 150);
+  margin-bottom: 20px;
+}
+
+.call p {
+  margin-bottom: 20px;
+}
+
+.call a {
+  background-color: rgb(3, 158, 124);
+  color: #0c0c0c;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.call a:hover {
+  background-color: #333;
+}
+
+h2 {
+  text-align: center;
+  background-color: rgb(0, 5, 7);
+  text-transform: uppercase;
+  padding: 20px;
+  color: white;
+}
+
+.seccion {
+  height: 650px;
+  width: 100%;
+  background-color: rgba(2, 134, 134, 0.7725490196);
+}
+
+.seccion1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.seccion2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.seccion3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.seccion4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+.seccion5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: #111;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a i:hover {
+  color: #555;
+}
+
+footer .redes i {
+  color: rgb(3, 150, 125);
+  font-size: 50px;
+  letter-spacing: 15px;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(3, 166, 172);
+  border-radius: 50%;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  color: #fff;
+  box-shadow: 0px 0px 5px 5px #fff;
+}
+
+.main {
+  color: #ffffff;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 5px solid rgb(0, 0, 0);
+  float: left;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.complace {
+  color: black;
+  background-color: #017e73;
+  border: 5px solid black;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nos {
+  background-color: #555;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+.productos {
+  size-adjust: auto;
+  width: 350px;
+}
+
+.btn-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  min-width: none;
+}
+
+.lista {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.boton {
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Skateshop {
+  color: #00c2a8;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.texto {
+  font-size: 11px;
+}
+
+@keyframes mi_animacion {
+  0% {
+    width: 60%;
+  }
+  25% {
+    width: 59%;
+  }
+  50% {
+    width: 60%;
+  }
+  75% {
+    width: 59%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.call {
+  animation-name: mi_animacion;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=style.css.map */
