@@ -1,14 +1,14 @@
-@import '../reset/reset';
+@import '../components/reset/reset';
 
-@import '../header/header';
+@import '../components/header/header';
 
-@import '../main/main';
+@import '../components/main/main';
 
-@import '../footer/footer';
+@import '../components/footer/footer';
 
-@import '../upper/upper';
+@import '../components/upper/upper';
 
-@import '../utilities/utilities';
+@import '../components/utilities/utilities';
 
 @keyframes mi_animacion{
     0%{
